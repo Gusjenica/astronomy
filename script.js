@@ -324,3 +324,26 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.news-card, .event-card').forEach(card => {
     observer.observe(card);
 });
+
+function toggleClasses() {
+  const show1 = document.querySelector('.show1');
+  const show2 = document.querySelector('.show2');
+
+  const mobileBreakpoint = 768; // širina ekrana za mobile
+
+  if (window.innerWidth <= mobileBreakpoint) {
+    // Mobile
+    show1.style.display = 'none';
+    show2.style.display = 'block';
+  } else {
+    // Desktop
+    show1.style.display = 'block';
+    show2.style.display = 'none';
+  }
+}
+
+// Pokreni pri učitavanju stranice
+toggleClasses();
+
+// Pokreni pri promjeni veličine ekrana
+window.addEventListener('resize', toggleClasses);
