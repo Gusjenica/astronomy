@@ -321,6 +321,10 @@ body {
     overflow: hidden;
 }
 
+.show2 {
+    margin-top: 20%;
+}
+
 .hero-content {
     text-align: center;
     z-index: 2;
