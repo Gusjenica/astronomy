@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adorion</title>
+    <link rel="stylesheet" href="../astronomy/universe.css">
+    <link rel="stylesheet" href="../astronomy/explore.css">
     <link rel="stylesheet" href="../astronomy/styles.css">
 </head>
 <body>
@@ -29,7 +31,9 @@
                 <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
                 <li><a href="#news" class="nav-link" data-section="news">Astronomy News</a></li>
                 <li><a href="#events" class="nav-link" data-section="events">Events</a></li>
+                <li><a href="../astronomy/gallerytest.html" class="nav-link2" data-section="gallery">Gallery</a></li>
                 <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                
             </ul>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -40,10 +44,15 @@
     </nav>
 
     <!-- Home Section -->
+    
     <section id="home" class="section home-section">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'></div>
         <div class="hero-content">
-            <h1 class="hero-title">Welcome to Adorion</h1>
-            <p class="hero-subtitle">Explore the wonders of the universe</p>
+            <!--<h1 class="hero-title">Welcome to Adorion</h1>
+            <p class="hero-subtitle">Explore the wonders of the universe</p>-->
             <div class="stars-background">
                 <div class="star"></div>
                 <div class="star"></div>
@@ -54,7 +63,24 @@
                 <div class="star"></div>
                 <div class="star"></div>
             </div>
-            <button class="cta-button" onclick="document.querySelector('[data-section=\'news\']').click()">Explore News</button>
+            <button class="explore_universe" onclick="document.querySelector('[data-section=\'news\']').click()">
+                <div class="main">
+                <div class="rings" id="ring1"></div>
+                <div class="rings" id="ring2"></div>
+                <div class="asteriods-large" id="asteriod1"></div>
+                <div class="asteriods-large" id="asteriod2"></div>
+                <div class="asteriods-large" id="asteriod3"></div>
+                <div class="asteriods-large" id="asteriod4"></div>
+                <div class="asteriods-large" id="asteriod5"></div>
+                <div class="asteriods-small" id="asteriod6"></div>
+                <div class="asteriods-small" id="asteriod7"></div>
+                <div class="asteriods-small" id="asteriod8"></div>
+                <div class="asteriods-small" id="asteriod9"></div>
+                <div class="asteriods-small" id="asteriod10"></div>
+                <div id="saturn"></div>
+                <div id="explore">Explore</div></div>
+            </button>
+            <!--<button class="cta-button" onclick="document.querySelector('[data-section=\'news\']').click()">Explore News</button>-->
         </div>
     </section>
 
@@ -110,28 +136,29 @@
                         <span class="info-icon">📍</span>
                         <div>
                             <h4>Location</h4>
-                            <p>Observatory Lane, Space City<br>SC 12345, Universe</p>
+                            <p>Observatory<br>Shopping Center VEMA Visoko sixth floor</p>
+                            <a style="text-decoration: none;" href="https://maps.app.goo.gl/iEMTAf6hxXeVTFUG6" target="_blank"><p>Observatory</p></a>
                         </div>
                     </div>
                     <div class="info-item">
                         <span class="info-icon">📞</span>
                         <div>
                             <h4>Phone</h4>
-                            <p>+1 (555) 123-4567</p>
+                            <p>+387 (555) 123-4567</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <span class="info-icon">✉️</span>
                         <div>
                             <h4>Email</h4>
-                            <p>info@cosmoskyastronomy.com</p>
+                            <p>info@observatory.com</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <span class="info-icon">🕐</span>
                         <div>
                             <h4>Hours</h4>
-                            <p>Monday - Friday: 9 AM - 6 PM<br>Saturday - Sunday: 10 AM - 4 PM</p>
+                            <p>Wednesday: 8 PM - 9:30 PM<br>Saturday: 8 PM - 9:30 PM</p>
                         </div>
                     </div>
                 </div>
@@ -145,5 +172,8 @@
     </footer>
 
     <script src="../astronomy/script.js"></script>
+    <script src="../astronomy/space_globe.js"></script>
+
+    
 </body>
 </html>

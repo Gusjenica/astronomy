@@ -238,6 +238,43 @@ body {
     width: 100%;
 }
 
+.nav-link2 {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--highlight-color);
+    transition: width 0.3s ease;
+}
+
+.nav-link2:hover {
+    color: var(--highlight-color);
+}
+
+.nav-link2:hover::after {
+    width: 100%;
+}
+
+.nav-link2.active {
+    color: var(--highlight-color);
+}
+
+.nav-link2.active::after {
+    width: 100%;
+}
+
+
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -277,7 +314,7 @@ body {
 
 /* Home Section */
 .home-section {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    /*background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);*/
     position: relative;
     display: flex;
     align-items: center;

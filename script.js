@@ -92,6 +92,16 @@ const newsData = [
         date: 'January 20, 2026',
         title: 'Mars Rover Discovers Ancient Riverbed',
         description: 'New evidence suggests liquid water flowed on Mars billions of years ago. This discovery supports the theory of past habitable conditions.'
+    },
+    {
+        date: 'January 20, 2026',
+        title: 'Mars Rover Discovers Ancient Riverbed',
+        description: 'New evidence suggests liquid water flowed on Mars billions of years ago. This discovery supports the theory of past habitable conditions.'
+    },
+    {
+        date: 'January 20, 2026',
+        title: 'Mars Rover Discovers Ancient Riverbed',
+        description: 'New evidence suggests liquid water flowed on Mars billions of years ago. This discovery supports the theory of past habitable conditions.'
     }
 ];
 
@@ -110,6 +120,27 @@ const eventsData = [
         title: 'Introduction to Astronomy Workshop',
         location: 'Education Center',
         description: 'Learn the basics of astronomy and stargazing. Perfect for beginners interested in exploring the night sky.'
+    },
+    {
+        date: 10,
+        month: 'MAR',
+        title: 'Meteor Shower Night',
+        location: 'Dark Sky Reserve',
+        description: 'Experience one of the year\'s best meteor showers. Bring a blanket and prepare for an unforgettable night of cosmic fireworks.'
+    },
+    {
+        date: 10,
+        month: 'MAR',
+        title: 'Meteor Shower Night',
+        location: 'Dark Sky Reserve',
+        description: 'Experience one of the year\'s best meteor showers. Bring a blanket and prepare for an unforgettable night of cosmic fireworks.'
+    },
+    {
+        date: 10,
+        month: 'MAR',
+        title: 'Meteor Shower Night',
+        location: 'Dark Sky Reserve',
+        description: 'Experience one of the year\'s best meteor showers. Bring a blanket and prepare for an unforgettable night of cosmic fireworks.'
     },
     {
         date: 10,
